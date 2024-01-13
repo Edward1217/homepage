@@ -1,0 +1,108 @@
+html {
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+header {
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    width:100%;
+    background-color: black;
+    z-index:3;
+    border-bottom: 1px solid orange;
+    opacity:1;
+}
+header h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    padding-left: 20px;
+}
+
+li, a {
+    text-decoration: none;
+    padding: 5px;
+    display:inline-block;
+    font-size:1.5rem;
+}
+
+#banner {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    background-image: url("304166993_454931176657871_766566525723923391_n.jpg");
+    background-position: center;
+    height: 400px;
+    background-size: 100% auto;
+}
+
+#banner h1 {
+    color:white;
+    font-size:3rem;
+}
+#about{
+    padding-top:100px;
+}
+
+.aboutme {
+    text-align: center;
+}
+
+.aboutme h3 {
+    margin: 0 400px;
+    padding:0 10px;
+}
+#banner2 {
+    padding-top: 100px;
+    text-align: center;
+}
+.menu {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.block img {
+    width: 300px;
+    height: auto;
+    padding: 0 20px;
+}
+
+#team {
+    padding-top: 100px;
+    text-align:center;
+}
+.meetteam {
+    display:flex;
+    align-items: end;
+    justify-content: space-evenly;
+
+}
+.team1 img {
+    width:350px;
+    height:auto;
+    padding: 0 15px;
+}
+
+footer {
+    display:flex;
+    align-items: center;
+    background-color: black;
+    width:100%;
+    height:100px;
+    justify-content: center;
+}
+
+footer p {
+    color:white;
+    padding-left: 30px;
+}
